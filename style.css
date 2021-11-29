@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+   font-family: 'Roboto',
+   sans-serif;
+    
+}
+/*----header section start-----*/
+.header{
+    display: flex;
+    padding-bottom: 6%;
+    background-image: url(images/female/hero.bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header-area1 {
+    width: 50%;
+    margin: 5% 0 0 7%;
+    
+}
+.header-area1 h1 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: 600;
+    /* line-height: 32px; */
+
+
+}
+
+.header-area1 p {
+  font-size: 17px;
+   font-weight: 500;
+   font-family: 'Montserrat',
+   sans-serif;
+   margin-bottom: 65px;
+   color: #000000;
+   line-height: 30px;
+}
+.header-area{
+    width: 50%;
+    margin-right: 6%;
+}
+.span {
+    color: #5ca7b4;
+    font-size: 60px;
+}
+.num{
+  text-decoration: line-through;
+}
+.btn{
+    font-weight: 500;
+    padding: 14px 40px 14px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%);
+    color: #3d3d3c;
+    border-radius: 37px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    font-family: 'Roboto',
+    sans-serif;
+    
+}
+/*---header section end-----*/
+
+/*---About section start---*/
+.about-area {
+    display: flex;
+    background-image: url(images/female/men.bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.about-part1 {
+    width: 50%;
+    
+    
+    
+}
+
+.about-part {
+      width: 50%;
+      padding: 7% 5% 5% 5%;
+      
+}
+.about-part h1{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+.about-part p{
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-size: 17px;
+    color: #000000;
+    line-height: 30px;
+    margin-bottom: 15%;
+    
+}
+
+/*---about section end-----*/
+/*---clothes section start-----*/
+.clothes-area {
+    padding: 50px 0 0 0;
+    background-image: url(images/female/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.clothes-part {
+    text-align: center;
+    padding: 45px;
+}
+.clothes-part h1 {
+    font-size: 30px;
+    color: #141413;
+    font-weight: 600;
+    margin-bottom: 3%;
+
+}
+
+.clothes-part p {
+    padding: 0 150px 0 150px;
+     font-family: 'Source Sans Pro',
+     sans-serif;
+     font-size: 18px;
+     color: #111111;
+     line-height: 30px;
+     
+}
+.clothes-item {
+    display: flex;
+    padding: 50px 100px 80px 80px;
+}
+.clothes-item2 {
+    display: flex;
+    padding: 0 100px 0 80px;
+}
+#item1{
+    background: rgb(255, 255, 255);
+    width:150%;
+    padding: 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    margin: 20px;
+
+}
+#item1 p {
+    padding-right: 10px;
+    
+}
+#item1 img{
+    width: 100%;
+}
+
+
+#item1 .btn1 {
+    padding: 8px 10px 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%);
+    color: #fff;
+    border-radius: 37px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    font-family: 'Roboto',
+    sans-serif;
+    margin-bottom: 20px;
+    
+
+}
+#item2 {
+    background: #fff;
+    width: 150%;
+    padding: 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    margin:20px;
+    padding-bottom: 30px;
+    
+}
+#item2 p {
+    padding-right: 10px;
+}
+
+#item2 img {
+    width: 100%;
+}
+#item2 .btn1 {
+    padding: 8px 10px 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%);
+    color: #fff;
+    border-radius: 37px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-bottom: 20px;
+    }
+#item3 {
+    background: #fff;
+    width: 150%;
+    padding: 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    margin:20px;
+    padding-bottom: 30px;
+
+}
+#item3 p {
+    padding-right: 10px;
+}
+
+#item3 img {
+    width: 100%;
+}
+#item3 .btn1 {
+    padding: 8px 10px 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 37px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    font-family: 'Roboto',
+        sans-serif;
+        margin-bottom: 20px;
+}
+
+/*---clothes section end-----*/
+
+
+/*---gellary section start-----*/
+.gellary {
+    display: flex;
+    text-align: center;
+    margin: 0 100px 0 100px;
+    
+    
+    
+}
+
+.gellary div {
+    background: #fff;
+    width: 150%;
+    padding:25px 0 25px 0;
+    margin: 0px 20px 20px 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+}
+.gellary div img {
+    width: 100%;
+}
+.gellary2 {
+    display: flex;
+    text-align: center;
+    margin: 0 100px 25px 100px;
+
+
+
+}
+.gellary2 div {
+    background: #fff;
+    width: 150%;
+    padding: 25px 0 25px 0;
+    margin: 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+}
+
+.gellary2 div img {
+    width: 100%;
+}
+
+.gellary3 {
+    display: flex;
+    text-align: center;
+    margin: 0 100px 25px 100px;
+
+
+
+}
+
+.gellary3 div {
+    background: #fff;
+    width: 150%;
+    padding: 25px 0 25px 0;
+    margin: 0px 20px 20px 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+}
+
+.gellary3 div img {
+    width: 100%;
+}
+.gellary-part {
+    text-align: center;
+     padding: 55px;
+}
+.gellary-part h1 {
+    font-size: 30px;
+    color: #141413;
+    font-weight: 600;
+    margin-bottom: 7%;
+
+}
+.nav {
+    text-align: center;
+     margin: 0 200px 0 200px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav li a{
+   text-decoration: none;
+   background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%);
+   color: #000000;
+   box-shadow: rgb(205 202 200) 2px 4px 10px;
+   padding: 10px;
+   margin: 30px 30px 0px 30px;
+   
+}
+
+.gellary4 {
+    display: flex;
+    text-align: center;
+    margin: 0 100px 100px 100px;
+
+
+
+}
+
+.gellary4 div {
+    background: #fff;
+    width: 150%;
+    padding: 25px 0 25px 0;
+    margin: 0px 20px 20px 20px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+}
+
+.gellary4 div img {
+    width: 100%;
+}
+
+/*---gellary section end-----*/
+
+/* footer section start */
+.footer-area{
+    background: #000000;
+    text-align: center;
+    padding: 30px 0 30px 0;
+
+}
+.footer-area h1{
+    color: rgb(163, 148, 148);
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.footer-area p{
+    color: #fff;
+}
+.food{
+    color: #6fc4e6;
+    ;
+}
+.social-links img{
+    width: 25px;
+}
+
+.nav2 {
+    text-align: center;
+    margin: 0 360px 30px 360px;
+}
+
+.nav2 ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav2 li a {
+    text-decoration: underline;
+    /* background: linear-gradient(to right, #6fc4e6 0%, #ffffff 100%); */
+    color: #ffffff;
+    text-shadow: rgb(205 202 200) 2px 4px 10px;
+    /* padding: 10px; */
+    margin: 10px 10px 40px 10px;
+
+}
+/* footer section end */
